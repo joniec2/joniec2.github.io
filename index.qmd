@@ -1,6 +1,21 @@
 ---
-title: "Strona główna"
-format: html
+title: "Krzysztof Jończyk"
+toc: true
+toc-title: "Content"
+toc-location: right
+about:
+  id: hero-heading
+  template: trestles
+  image: foto.jpg
+  image-width: 15em
+  image-shape: round
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/krzysztof-jonczyk/
+    - icon: github
+      text: Github
+      href: https://github.com/joniec2
 ---
 
 # Witaj na mojej stronie
