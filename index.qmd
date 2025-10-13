@@ -18,6 +18,58 @@ about:
       href: https://github.com/joniec2
 ---
 
-# Witaj na mojej stronie
+## Profile
 
-To jest przykładowa strona główna stworzona w Quarto.
+Highly motivated to transition into Developer Operations (DevOps) to
+leverage and expand technical quality skills. Currently I am an Associate
+DB2/MSSQL/Postgresql database administrator in Kyndryl Company. I am
+Seeking to expand my knowledge of DevOps technology and pursue a Data
+Engineer career path.
+Preferred work type: Remotely or Hybrid in Katowice, Kraków Poland
+
+## Work Experience
+
+Kyndryl GSDC PL
+Associate, Systems Administration
+2023 - PRESENT
+Executing DB2 database restores with redirects, ensuring data integrity and disaster recovery
+readiness.
+Developing PDF guidance for standardized DB2 restore with redirect procedures.
+Organizing and performing DB2 instance and database upgrades from 11.1 to 11.5.
+Coordinating patching campaigns for servers hosting DB2 databases.
+Creating DB2 backups (single and multi-file) for operational continuity.
+Developing and executing DB2 scripts to automate routine administrative tasks.
+Supporting Oracle systems, including checking listeners, performing table import/export, and
+executing RMAN backups)
+Performing SQL Server patching and configured security parameters based on health checks.
+Managing and executing PostgreSQL database patching on specific servers.
+Fixing Health Checks according to Tech Spec on Database engine (DB2, MSSQL, Postgresql)
+Kyndryl GSDC PL
+Representative, Computer Operations
+2021 - 2023
+Creating and executing Changes on SNOW tool
+Resolving incident tickets
+Speaking with internal customers
+Organizing patching campaign for servers with db2 database
+Operating of few tools like SNOW, Maximo, RCP
+Creating Tickets, Service Request on Maximo
+IBM GSDC PL
+2021 - 2021
+IT Assistant
+Executing DB2 tasks (Cataloging/Uncataloging database)
+Decommisioning databases
+RTV EURO AGD
+2015 - 2021
+Retail Customer Advisor
+Providing Customer service along with the selection of goods tailored to individual customer needs.
+Accepting complaints and deliveries along with a documentary analysis
+
+## Education 
+
+Master of Data Science
+2019 - 2022
+Akademia WSB Dąbrowa Górnicza
+GPA: 4.5
+Bachelor of Software and database engineering
+Akademia Górnośląska im. Wojciecha Korfantego - Katowice
+GPA: 4.5
