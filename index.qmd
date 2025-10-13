@@ -1,0 +1,8 @@
+---
+title: "Strona główna"
+format: html
+---
+
+# Witaj na mojej stronie
+
+To jest przykładowa strona główna stworzona w Quarto.
