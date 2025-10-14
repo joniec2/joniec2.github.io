@@ -16,6 +16,8 @@ about:
     - icon: github
       text: Github
       href: https://github.com/joniec2
+output:
+  postcards::trestles
 ---
 
 ## Profile
