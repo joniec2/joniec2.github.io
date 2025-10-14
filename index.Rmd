@@ -1,5 +1,5 @@
 ---
-title: "Krzysztof Jończyk\n Database Administrator"
+title: "Krzysztof Jończyk\ Database Administrator"
 image: "photo.png"
 links:
   - label: LinkedIn
@@ -19,7 +19,9 @@ Highly motivated to transition into Developer Operations (DevOps) to leverage an
 
 ## Work Experience
 
-Kyndryl GSDC PL Associate, Systems Administration 2023 - PRESENT 
+Kyndryl GSDC PL Associate, Systems Administration
+
+**03.2023 - PRESENT** 
 
 -   Executing DB2 database restores with redirects, ensuring data integrity and disaster recovery readiness.
 
@@ -41,7 +43,9 @@ Kyndryl GSDC PL Associate, Systems Administration 2023 - PRESENT 
 
 -   Fixing Health Checks according to Tech Spec on Database engine (DB2, MSSQL, Postgresql)
 
-Kyndryl GSDC PL Representative, Computer Operations 2021 - 2023
+Kyndryl GSDC PL Representative, Computer Operations
+
+**09.2021 - 03.2023**
 
 -   Creating and executing Changes on SNOW tool
 
@@ -51,13 +55,17 @@ Kyndryl GSDC PL Representative, Computer Operations 2021 - 2023
 
 -   Operating of few tools like SNOW, Maximo, RCP Creating Tickets, Service Request on Maximo
 
-IBM GSDC PL 2021 - 2021 IT Assistant
+IBM GSDC PL IT Assistant
+
+**07.2021 - 09.2021**
 
 -   Executing DB2 tasks (Cataloging/Uncataloging database)
 
 -   Decommisioning databases
 
-RTV EURO AGD 2015 - 2021 Retail Customer Advisor
+RTV EURO AGD Retail Customer Advisor
+
+**10.2015 - 06.2021**
 
 -   Providing Customer service along with the selection of goods tailored to individual customer needs.
 
