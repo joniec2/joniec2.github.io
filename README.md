@@ -1,2 +1,2 @@
 # joniec2.github.io
-my CV
+my CV and blog
