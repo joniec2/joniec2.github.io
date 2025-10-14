@@ -1,5 +1,5 @@
 ---
-title: "Krzysztof Jończyk\ Database Administrator"
+title: "Krzysztof Jończyk"
 image: "photo.png"
 links:
   - label: LinkedIn
