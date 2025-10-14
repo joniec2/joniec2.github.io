@@ -1,0 +1,95 @@
+---
+title: "CURRICULUM VITAE - Jan Kowalski"
+author: "Zaktualizowano: 14 Października 2025"
+format:
+  html:
+    toc: false # Ukrywamy spis treści
+    css: styles.css # Podpinamy plik CSS do stylizacji
+    self-contained: true # Osadzamy wszystkie zasoby w jednym pliku HTML
+    include-in-header: 
+        - text: 
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLMDJd/rB0XqC9U6jug0x1xR1c8Jz5K4xS7/E5B/w2WjA5S5M5E5F5A5A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+---
+
+<style>
+/* Wbudowany CSS dla lepszego formatowania */
+.section-header {
+  border-bottom: 2px solid #004d99; /* Ciemnoniebieska linia pod sekcją */
+  padding-bottom: 5px;
+  margin-top: 25px;
+  color: #004d99;
+}
+.job-title {
+  font-weight: bold;
+  color: #333;
+}
+.job-details {
+  font-style: italic;
+  color: #555;
+}
+.contact-info i {
+    margin-right: 8px;
+    color: #004d99;
+}
+ul {
+  padding-left: 20px;
+}
+</style>
+
+# Jan Kowalski
+*(Analityk Danych / Specjalista Business Intelligence)*
+
+<div class="contact-info">
+  <p>
+    <i class="fa-solid fa-phone"></i> +48 123 456 789 |
+    <i class="fa-solid fa-envelope"></i> <a href="mailto:jan.kowalski@email.com">jan.kowalski@email.com</a> |
+    <i class="fa-solid fa-location-dot"></i> Kraków, Polska |
+    <i class="fa-brands fa-linkedin"></i> <a href="https://linkedin.com/in/jankowalski">LinkedIn</a>
+  </p>
+</div>
+
+---
+
+<h2 class="section-header">Podsumowanie Zawodowe</h2>
+
+Doświadczony Analityk Danych z **5-letnim stażem** w branży e-commerce, specjalizujący się w **analizie behawioralnej użytkowników** i optymalizacji konwersji. Biegły w **Pythonie (Pandas, NumPy)**, **SQL** oraz narzędziach wizualizacji (Tableau/Power BI). Szukam możliwości wykorzystania moich umiejętności w firmie dynamicznie rozwijającej się.
+
+---
+
+<h2 class="section-header">Doświadczenie Zawodowe</h2>
+
+### **Starszy Analityk Danych** <span class="job-details">| E-commerce Solutions Sp. z o.o. | Kraków | 01.2021 – obecnie</span>
+
+<ul>
+    <li>Kierowanie analizami **A/B testów**, co przyczyniło się do wzrostu współczynnika konwersji o **12%** w skali kwartału.</li>
+    <li>Rozwój i utrzymanie krytycznych **raportów biznesowych** w Power BI, używanych przez kadrę zarządzającą.</li>
+    <li>Przeprowadzanie złożonej analizy **SQL** na dużych zbiorach danych w celu identyfikacji kluczowych trendów.</li>
+</ul>
+
+### **Młodszy Analityk Biznesowy** <span class="job-details">| TechStartups S.A. | Warszawa | 09.2018 – 12.2020</span>
+
+<ul>
+    <li>Przygotowywanie cotygodniowych raportów sprzedaży i wydajności marketingu.</li>
+    <li>Wsparcie w modelowaniu finansowym i prognozowaniu budżetów.</li>
+</ul>
+
+---
+
+<h2 class="section-header">Edukacja</h2>
+
+### **Magister Informatyki** <span class="job-details">| Politechnika Krakowska | Kraków | 2016 – 2018</span>
+Specjalizacja: Systemy Baz Danych.
+
+### **Inżynier Zarządzania** <span class="job-details">| Szkoła Główna Handlowa (SGH) | Warszawa | 2013 – 2016</span>
+
+---
+
+<h2 class="section-header">Umiejętności</h2>
+
+| Kategoria | Umiejętności |
+|:----------|:-------------|
+| **Języki Programowania** | Python (Pandas, NumPy, Scikit-learn), SQL, R |
+| **Bazy Danych** | PostgreSQL, MySQL, MongoDB |
+| **Wizualizacja Danych** | Tableau, Power BI, Matplotlib |
+| **Narzędzia** | Git, Jira, Confluence, Microsoft Excel (zaawansowany) |
+| **Języki obce** | Angielski (Biegły), Niemiecki (Podstawowy) |

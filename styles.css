@@ -1,0 +1,121 @@
+/* -------------------------------------------
+   STYLES.CSS dla szablonu CV Quarto (HTML)
+   ------------------------------------------- */
+
+/* Podstawowy styl ciała i czcionki */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    max-width: 900px; /* Ograniczenie szerokości CV dla lepszej czytelności */
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f8f9fa; /* Bardzo jasne tło */
+    border: 1px solid #dee2e6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Delikatny cień */
+}
+
+/* Główne imię i nazwisko */
+h1 {
+    color: #004d99; /* Głęboki niebieski kolor */
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    border-bottom: 3px solid #004d99;
+    padding-bottom: 5px;
+}
+
+/* Opis pod imieniem (tytuł zawodowy) */
+h1 + p {
+    font-style: italic;
+    color: #555;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* Nagłówki sekcji (Podsumowanie, Doświadczenie, Edukacja, Umiejętności) */
+h2 {
+    color: #333;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    border-bottom: 2px solid #ced4da; /* Subtelna linia pod sekcją */
+    padding-bottom: 5px;
+}
+
+/* Informacje kontaktowe */
+.contact-info p {
+    margin: 5px 0;
+    font-size: 0.95em;
+}
+
+.contact-info a {
+    color: #004d99;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Ikony Font Awesome w sekcji kontaktowej */
+.contact-info i {
+    color: #004d99;
+    margin-right: 8px;
+    width: 15px; /* Ujednolicenie szerokości ikon dla wyrównania */
+    text-align: center;
+}
+
+/* Doświadczenie zawodowe i edukacja */
+h3 {
+    color: #004d99;
+    font-size: 1.1em;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+/* Szczegóły stanowiska/lokalizacji (użyjemy do tego span w HTML) */
+.job-details {
+    font-style: italic;
+    color: #6c757d;
+    font-weight: normal;
+    display: block; /* Przeniesienie na nową linię dla czystości */
+}
+
+/* Stylizacja list (punkty) */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+    font-size: 0.95em;
+}
+
+/* Tabela Umiejętności */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #e9ecef;
+    text-align: left;
+    vertical-align: top;
+}
+
+table th {
+    background-color: #e9ecef;
+    color: #333;
+    width: 30%; /* Szerokość dla kategorii */
+}
+
+/* Separator między głównymi sekcjami */
+hr {
+    border: none;
+    border-top: 1px solid #ced4da;
+    margin: 20px 0;
+}
