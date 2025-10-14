@@ -35,7 +35,7 @@ Kyndryl GSDC PL Associate, Systems Administration
 
 -   Developing and executing DB2 scripts to automate routine administrative tasks.
 
--   Supporting Oracle systems, including checking listeners, performing table import/export, and executing RMAN backups)
+-   Supporting Oracle systems (including checking listeners, performing table import/export, and executing RMAN backups)
 
 -   Performing SQL Server patching and configured security parameters based on health checks.
 
