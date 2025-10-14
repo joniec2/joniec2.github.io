@@ -15,7 +15,7 @@ output:
 ## Profile
 
 Highly motivated to transition into Developer Operations (DevOps) to leverage and expand technical quality skills. Currently I am an Associate DB2/MSSQL/Postgresql database administrator in Kyndryl Company. I am Seeking to expand my knowledge of DevOps technology and pursue a Data Engineer career path.\
-**Preferred work type: Remotely or Hybrid in Katowice, Kraków Poland**
+**Preferred work type: Remotely or Hybrid in Katowice, Kraków(Poland)**
 
 ## Work Experience
 
@@ -91,6 +91,46 @@ GPA: 4.5
 
 ## Skills
 
+-   SQL
+
+-   RDBMS (Oracle/DB2 LUW/PostgreSQL/MSSQL)
+
+-   Python Language Basics
+
+-   Cloud Services (AWS, Microsoft Azure & Google)
+
+-   Containerization (Docker & Kubernetes)
+
+-   CI/CD (Jenkins, GitLab)
+
+-   VCS (Git)
+
+-   Microsoft Power Platform (Power BI, Power Automate, Power Apps)
+
+-   High-Availability Disaster Recovery (Pacemaker & TSAMP)
+
+-   Red Hat Enterprise Linux
+
+-   Maximo (ICD), SNOW, JIRA
+
 ## Certifications
 
+-   KYNDRYL MICROSOFT CLOUD & AI BOOTCAMP CHALLENGE
+
+-   GOOGLE CLOUD DIGITAL LEADER
+
+-   MICROSOFT DP-300 CERTIFICATE
+
+-   MICROSOFT AZ-900 CERTIFICATE
+
+-   PYTHON FOR DATASCIENCE AND AIOPS
+
+-   AWS CERTIFIED CLOUD PRACTITIONER
+
 ## Languages
+
+-   English (B2)
+
+-   German (B2)
+
+-   Polish (C2)
