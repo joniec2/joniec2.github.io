@@ -19,7 +19,7 @@ Highly motivated to transition into Developer Operations (DevOps) to leverage an
 
 ## Work Experience
 
-Kyndryl GSDC PL Associate, Systems Administration
+#### Kyndryl GSDC PL \| Associate, Systems Administration
 
 **03.2023 - PRESENT** 
 
@@ -43,7 +43,7 @@ Kyndryl GSDC PL Associate, Systems Administration
 
 -   Fixing Health Checks according to Tech Spec on Database engine (DB2, MSSQL, Postgresql)
 
-Kyndryl GSDC PL Representative, Computer Operations
+#### Kyndryl GSDC PL \| Representative, Computer Operations
 
 **09.2021 - 03.2023**
 
@@ -55,7 +55,7 @@ Kyndryl GSDC PL Representative, Computer Operations
 
 -   Operating of few tools like SNOW, Maximo, RCP Creating Tickets, Service Request on Maximo
 
-IBM GSDC PL IT Assistant
+#### IBM GSDC PL \| IT Assistant
 
 **07.2021 - 09.2021**
 
@@ -63,7 +63,7 @@ IBM GSDC PL IT Assistant
 
 -   Decommisioning databases
 
-RTV EURO AGD Retail Customer Advisor
+#### RTV EURO AGD \| Retail Customer Advisor
 
 **10.2015 - 06.2021**
 
