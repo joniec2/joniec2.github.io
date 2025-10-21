@@ -1,0 +1,19 @@
+---
+project:
+  type: website
+
+website:
+  title: "Mój Blog"
+  navbar:
+    left:
+      - text: "Strona główna"
+        href: index.qmd
+      - text: "Wpisy"
+        href: posts/index.qmd
+  page-footer:
+    center: "© 2025 Mój Blog"
+
+format:
+  html:
+    theme: darkly
+---
