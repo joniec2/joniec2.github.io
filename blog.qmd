@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Mój Blog"
+  author: "Krzysztof Jończyk"
   navbar:
     left:
       - text: "Strona główna"
