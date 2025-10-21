@@ -9,7 +9,7 @@ links:
   - label: Email
     url: "mailto:krzysztofjonczyk@outlook.com"
   - label: Blog
-    url: "https://joniec2.github.io/test/"
+    url: "https://joniec2.github.io/test.html/"
 output:
   postcards::trestles
 ---
