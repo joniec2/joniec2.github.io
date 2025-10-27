@@ -1,6 +1,6 @@
 ---
 title: "Mój Blog Osobisty"
-author: "Twoje Imię"
+author: "Krzysztof Jończyk"
 format:
   html:
     theme: cosmo
@@ -31,8 +31,8 @@ footer { text-align:center; color:#666; margin-top:2rem; padding-top:1rem; borde
   <p class="btn-row">
     <a class="btn btn-primary" href="#about">O mnie</a>
     <a class="btn btn-outline-primary" href="#posts">Wpisy</a>
-    <a class="btn btn-success" href="mailto:twoj@email.com?subject=Subskrypcja">Subskrybuj</a>
-    <a class="btn btn-dark" href="https://github.com/" target="_blank">GitHub</a>
+    <a class="btn btn-success" href="mailto:krzysztofjonczyk@outlook.com?subject=Subskrypcja">Subskrybuj</a>
+    <a class="btn btn-dark" href="https://github.com/joniec2" target="_blank">GitHub</a>
   </p>
 </div>
 
@@ -86,7 +86,7 @@ footer { text-align:center; color:#666; margin-top:2rem; padding-top:1rem; borde
   <p>Masz pytanie lub propozycję współpracy? Napisz:</p>
   <p>
     <a class="btn btn-success" href="mailto:krzysztofjonczyk@outlook.com?subject=Kontakt%20z%20blogu">Napisz e‑mail</a>
-    <a class="btn btn-dark" href="https://twitter.com/" target="_blank">Twitter</a>
+    <a class="btn btn-dark" href="https://www.linkedin.com/in/krzysztof-jonczyk/" target="_blank">Linkedin</a>
   </p>
 </section>
 
