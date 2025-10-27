@@ -59,7 +59,7 @@ footer { text-align:center; color:#666; margin-top:2rem; padding-top:1rem; borde
         </div>
       </div>
     </div>
-
+  
     <div class="col-12 col-md-4">
       <div class="card mb-3">
         <div class="card-body">
@@ -73,8 +73,9 @@ footer { text-align:center; color:#666; margin-top:2rem; padding-top:1rem; borde
 </section>
 
 <section id="about">
-  <h2>O mnie</h2>
-  <p>Jestem programistą/pasjonatem technologii. Na tym blogu publikuję notatki techniczne, tutoriale oraz krótkie przemyślenia.</p>
+  <h2>About Me</h2>
+  <p>I am a DevOps, DB Admin enthusiast. On this blog, I publish technical notes, tutorials, and short thoughts.</p>
+  <p>Highly motivated to transition into Developer Operations (DevOps) to leverage and expand technical quality skills. Currently I am an Associate DB2/MSSQL/Postgresql database administrator in Kyndryl Company. I am Seeking to expand my knowledge of DevOps technology and pursue a Data Engineer career path. </p>
   <p>
     <a class="btn btn-outline-secondary" href="#contact">Skontaktuj się</a>
     <a class="btn btn-primary" href="resume.pdf" target="_blank">CV / Resume</a>
@@ -83,9 +84,9 @@ footer { text-align:center; color:#666; margin-top:2rem; padding-top:1rem; borde
 
 <section id="contact">
   <h2>Kontakt</h2>
-  <p>Masz pytanie lub propozycję współpracy? Napisz:</p>
+  <p>Have a question or a collaboration proposal? Get in touch:</p>
   <p>
-    <a class="btn btn-success" href="mailto:krzysztofjonczyk@outlook.com?subject=Kontakt%20z%20blogu">Napisz e‑mail</a>
+    <a class="btn btn-success" href="mailto:krzysztofjonczyk@outlook.com?subject=Contact%20from%20blog">Send email</a>
     <a class="btn btn-dark" href="https://www.linkedin.com/in/krzysztof-jonczyk/" target="_blank">Linkedin</a>
   </p>
 </section>
