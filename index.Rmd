@@ -10,6 +10,8 @@ links:
     url: "mailto:krzysztofjonczyk@outlook.com"
   - label: Blog
     url: "https://joniec2.github.io/test.html"
+  - label: Credly
+    url: "https://www.credly.com/users/krzysztof-jonczyk.829b582e/badges#credly"
 output:
   postcards::trestles
 ---
