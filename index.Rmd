@@ -18,7 +18,7 @@ output:
 
 ## Profile
 
-Dedicated database administrator with hands-on experience in DB2, MSSQL, and PostgreSQL environments, currently employed at Kyndryl. Skilled in database performance tuning, backup and recovery, and SQL query optimization. Motivated to transition into Data Engineering or DevOps to apply my expertise in data management, scripting, and system optimization toward designing automated pipelines and cloud-based solutions. Passionate about learning modern tools such as Python, Docker, Kubernetes, and CI/CD to enhance data workflows and infrastructure efficiency.\
+Dedicated database administrator with hands-on experience in DB2, MSSQL, and PostgreSQL environments, currently employed at Kyndryl. Skilled in database performance tuning, backup and recovery, and SQL query optimization. Motivated to transition into Data Engineering to apply my expertise in data management, scripting, and system optimization toward designing automated pipelines and cloud-based solutions. Passionate about learning modern tools such as Python, Docker, Kubernetes, and CI/CD to enhance data workflows and infrastructure efficiency.\
 **Preferred work type: Remotely or Hybrid in Katowice, Kraków(Poland)**
 
 ## Work Experience
