@@ -50,3 +50,5 @@ Projekt został przygotowany tak, aby był **czytelny, responsywny i łatwy do a
 📄 [Pobierz PDF](#CV)
 
 ---
+
+Made by: joniec2®
