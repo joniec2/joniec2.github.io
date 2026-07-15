@@ -16,7 +16,7 @@ output:
   postcards::trestles
 ---
 <style>
-/* 1. Ustawienie tła dla całej strony */
+/* 1. Tło całej strony */
 body {
   background-image: url("https://images.unsplash.com/photo-1518655061710-5ccf392c275a?q=80&w=3000") !important;
   background-size: cover !important;
@@ -25,50 +25,41 @@ body {
   background-attachment: fixed !important;
 }
 
-/* 2. Usunięcie domyślnych teł */
-.container-fluid, .row, .col-md-6, .col-lg-4, .col-lg-8, .col-sm-12, main {
+/* 2. Resetujemy wszystkie potencjalne czarne/ciemne tła w prawym panelu */
+.container-fluid, .row, .col-md-6, .col-lg-4, .col-sm-12, main {
   background-color: transparent !important;
   background: transparent !important;
 }
 
-/* 3. LEWY PANEL (Imię, Nazwisko, Przyciski) */
-/* Kolor Twojego imienia i nazwiska */
-h1, .author {
-  color: #6633ff !important; /* Tutaj wpisz swój kolor nagłówka (teraz biały) */
+/* 3. Wymuszamy jasne tło i ciemny tekst dla prawej strony */
+/* Używamy selektora 'main' oraz kolumn, aby na pewno trafić w prawy panel */
+main, .col-lg-8, .col-md-7 {
+  background-color: rgba(255, 255, 255, 0.9) !important; /* Mleczne, 90% białe tło */
+  color: #1a1a1a !important;   /* Bardzo ciemny, prawie czarny, ostry tekst */
+  padding: 40px !important;     /* Większy margines wewnętrzny dla oddechu */
+  border-radius: 12px !important; /* Zaokrąglone rogi panelu */
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15) !important; /* Delikatny cień pod panelem */
 }
 
-/* Stylizacja przycisków/linków pod zdjęciem */
-.btn-outline-dark {
-  color: #6633ff !important;        /* Kolor tekstu na przyciskach */
-  border-color: #6633ff !important; /* Kolor ramki przycisków */
-  background-color: rgba(255, 255, 255, 0.1) !important; /* Delikatne tło przycisku */
+/* Kolory nagłówków w prawym panelu */
+main h1, main h2, main h3, .col-lg-8 h1, .col-lg-8 h2, .col-lg-8 h3 {
+  color: #111111 !important; /* Głęboka czerń dla nagłówków */
+  font-weight: 700 !important;
 }
 
-/* Efekt po najechaniu myszką na przyciski */
-.btn-outline-dark:hover {
-  color: #000000 !important;        /* Kolor tekstu po najechaniu */
-  background-color: #ffffff !important; /* Kolor tła po najechaniu */
+/* Linki w tekście */
+main a, .col-lg-8 a {
+  color: #0066cc !important; /* Klasyczny, czytelny niebieski dla linków */
+  text-decoration: underline !important;
 }
 
-
-/* 4. PRAWY PANEL (Główna treść - Bio) */
-/* Jeśli używasz półprzezroczystego tła pod tekstem (polecam dla czytelności): */
-.col-lg-8 {
-  background: rgba(0, 0, 0, 0.6) !important; /* Czarne tło z 60% widocznością */
-  padding: 30px !important;
-  border-radius: 10px;
-  color: #6633ff !important; /* Jasnoszary kolor głównej czcionki */
+/* LEWY PANEL (kontrolujemy, żeby też pasował do całości) */
+.col-lg-4, .col-md-5 {
+  color: #ffffff !important; /* Biały tekst po lewej stronie, jeśli tło jest ciemne */
 }
-
-/* Kolory nagłówków (h2, h3 itd.) w tekście głównym */
-.col-lg-8 h2, .col-lg-8 h3 {
-  color: #6633ff !important;
-}
-
-/* Kolor zwykłych linków w tekście głównym */
-.col-lg-8 a {
-  color: #3498db !important; /* Jasnoniebieskie linki */
-  text-decoration: underline;
+.col-lg-4 h1 {
+  color: #ffffff !important; /* Imię i nazwisko na biało */
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.8) !important; /* Cień pod napisem, by nie zniknął na tle */
 }
 </style>
 
