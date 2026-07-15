@@ -25,24 +25,50 @@ body {
   background-attachment: fixed !important;
 }
 
-/* 2. Usunięcie białego tła z kontenerów, aby nasze tło było widoczne */
-.container-fluid, 
-.row, 
-.col-md-6, 
-.col-lg-4, 
-.col-lg-8, 
-.col-sm-12,
-main {
+/* 2. Usunięcie domyślnych teł */
+.container-fluid, .row, .col-md-6, .col-lg-4, .col-lg-8, .col-sm-12, main {
   background-color: transparent !important;
   background: transparent !important;
 }
 
-/* 3. Opcjonalnie: lekko przyciemnione/rozjaśnione tło pod samym tekstem, */
-/* żeby napisy były czytelne na tle obrazka */
+/* 3. LEWY PANEL (Imię, Nazwisko, Przyciski) */
+/* Kolor Twojego imienia i nazwiska */
+h1, .author {
+  color: #f0f0f0 !important; /* Tutaj wpisz swój kolor nagłówka (teraz biały) */
+}
+
+/* Stylizacja przycisków/linków pod zdjęciem */
+.btn-outline-dark {
+  color: #f0f0f0 !important;        /* Kolor tekstu na przyciskach */
+  border-color: #f0f0f0 !important; /* Kolor ramki przycisków */
+  background-color: rgba(255, 255, 255, 0.1) !important; /* Delikatne tło przycisku */
+}
+
+/* Efekt po najechaniu myszką na przyciski */
+.btn-outline-dark:hover {
+  color: #000000 !important;        /* Kolor tekstu po najechaniu */
+  background-color: #ffffff !important; /* Kolor tła po najechaniu */
+}
+
+
+/* 4. PRAWY PANEL (Główna treść - Bio) */
+/* Jeśli używasz półprzezroczystego tła pod tekstem (polecam dla czytelności): */
 .col-lg-8 {
-  background: rgba(255, 255, 255, 0.85) !important; /* białe tło z 85% widocznością */
+  background: rgba(0, 0, 0, 0.6) !important; /* Czarne tło z 60% widocznością */
   padding: 30px !important;
   border-radius: 10px;
+  color: #f0f0f0 !important; /* Jasnoszary kolor głównej czcionki */
+}
+
+/* Kolory nagłówków (h2, h3 itd.) w tekście głównym */
+.col-lg-8 h2, .col-lg-8 h3 {
+  color: #ffffff !important;
+}
+
+/* Kolor zwykłych linków w tekście głównym */
+.col-lg-8 a {
+  color: #3498db !important; /* Jasnoniebieskie linki */
+  text-decoration: underline;
 }
 </style>
 
