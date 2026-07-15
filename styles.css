@@ -1,6 +1,18 @@
 /* -------------------------------------------
    STYLES.CSS dla szablonu CV Quarto (HTML)
    ------------------------------------------- */
+/* style.css */
+body {
+  /* Podaj ścieżkę do obrazka. Może to być link URL */
+  /* lub plik lokalny w tym samym folderze (np. background.jpg) */
+  background-image: url("https://images.unsplash.com/photo-1518655061710-5ccf392c275a?q=80&w=3000"); 
+  
+  /* Ustawienia, aby tło wyglądało dobrze */
+  background-size: cover;          /* Pokryj cały ekran */
+  background-position: center;   /* Wyśrodkuj */
+  background-repeat: no-repeat;  /* Nie powtarzaj */
+  background-attachment: fixed;  /* Tło nie przewija się z tekstem */
+}
 
 /* Podstawowy styl ciała i czcionki */
 body {

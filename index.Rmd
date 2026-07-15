@@ -13,7 +13,8 @@ links:
   - label: Credly
     url: "https://www.credly.com/users/krzysztof-jonczyk.829b582e/badges#credly"
 output:
-  postcards::trestles
+  postcards::trestles:
+    css: style.css
 ---
 
 ## Profile
