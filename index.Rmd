@@ -16,50 +16,77 @@ output:
   postcards::trestles
 ---
 <style>
-/* 1. Tło całej strony */
+/* 1. TŁO DLA CAŁEJ STRONY - na samym dole (z-index) */
 body {
   background-image: url("https://images.unsplash.com/photo-1518655061710-5ccf392c275a?q=80&w=3000") !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-attachment: fixed !important;
+  z-index: 1 !important;
 }
 
-/* 2. Resetujemy wszystkie potencjalne czarne/ciemne tła w prawym panelu */
-.container-fluid, .row, .col-md-6, .col-lg-4, .col-sm-12, main {
+/* 2. CAŁKOWITE OCZYSZCZENIE TŁA ELEMENTÓW POŚREDNICH */
+/* To gwarantuje, że domyślne panele postcards staną się "niewidzialne" i nie zasłonią tekstu */
+.container-fluid, 
+.row, 
+.col-md-6, 
+.col-lg-4, 
+.col-sm-12, 
+main,
+div.d-flex {
   background-color: transparent !important;
   background: transparent !important;
 }
 
-/* 3. Wymuszamy jasne tło i ciemny tekst dla prawej strony */
-/* Używamy selektora 'main' oraz kolumn, aby na pewno trafić w prawy panel */
-main, .col-lg-8, .col-md-7 {
-  background-color: rgba(255, 255, 255, 0.9) !important; /* Mleczne, 90% białe tło */
-  color: #1a1a1a !important;   /* Bardzo ciemny, prawie czarny, ostry tekst */
-  padding: 40px !important;     /* Większy margines wewnętrzny dla oddechu */
-  border-radius: 12px !important; /* Zaokrąglone rogi panelu */
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15) !important; /* Delikatny cień pod panelem */
+/* 3. PRAWY PANEL (Tylko kontener z tekstem dostaje białe tło) */
+/* Dodajemy z-index: 10, aby tekst i jego tło były ZAWSZE na samej górze */
+.col-lg-8, 
+.col-md-7,
+.col-lg-8 .pr-5 {
+  background-color: rgba(255, 255, 255, 0.92) !important; /* Mleczna biel (92%) */
+  color: #111111 !important; /* Maksymalnie ciemny, czytelny tekst */
+  padding: 40px !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15) !important;
+  position: relative !important;
+  z-index: 10 !important; /* Wychodzi na wierzch nad inne warstwy */
 }
 
-/* Kolory nagłówków w prawym panelu */
-main h1, main h2, main h3, .col-lg-8 h1, .col-lg-8 h2, .col-lg-8 h3 {
-  color: #111111 !important; /* Głęboka czerń dla nagłówków */
-  font-weight: 700 !important;
+/* 4. CZCIONKI DLA PRAWEJ STRONY */
+/* Kolor zwykłego tekstu (akapity, listy) */
+.col-lg-8 p, 
+.col-lg-8 li, 
+.col-lg-8 span {
+  color: #111111 !important;
+  font-size: 1.05rem !important;
 }
 
-/* Linki w tekście */
-main a, .col-lg-8 a {
-  color: #0066cc !important; /* Klasyczny, czytelny niebieski dla linków */
+/* Kolor nagłówków */
+.col-lg-8 h1, 
+.col-lg-8 h2, 
+.col-lg-8 h3, 
+.col-lg-8 h4 {
+  color: #000000 !important; /* Czarny */
+  font-weight: bold !important;
+}
+
+/* Kolor linków w tekście */
+.col-lg-8 a {
+  color: #0056b3 !important; /* Czytelny niebieski link */
   text-decoration: underline !important;
 }
 
-/* LEWY PANEL (kontrolujemy, żeby też pasował do całości) */
-.col-lg-4, .col-md-5 {
-  color: #ffffff !important; /* Biały tekst po lewej stronie, jeśli tło jest ciemne */
+/* 5. LEWY PANEL (Zdjęcie i Przyciski) */
+/* Upewniamy się, że tekst po lewej stronie nie znika na tle głównym */
+.col-lg-4, 
+.col-md-5 {
+  color: #ffffff !important;
 }
-.col-lg-4 h1 {
-  color: #ffffff !important; /* Imię i nazwisko na biało */
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.8) !important; /* Cień pod napisem, by nie zniknął na tle */
+.col-lg-4 h1,
+.col-lg-4 .author {
+  color: #ffffff !important;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.8) !important; /* Cień pod białym tekstem */
 }
 </style>
 
