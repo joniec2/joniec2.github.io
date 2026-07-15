@@ -34,13 +34,13 @@ body {
 /* 3. LEWY PANEL (Imię, Nazwisko, Przyciski) */
 /* Kolor Twojego imienia i nazwiska */
 h1, .author {
-  color: #f0f0f0 !important; /* Tutaj wpisz swój kolor nagłówka (teraz biały) */
+  color: #6633ff !important; /* Tutaj wpisz swój kolor nagłówka (teraz biały) */
 }
 
 /* Stylizacja przycisków/linków pod zdjęciem */
 .btn-outline-dark {
-  color: #f0f0f0 !important;        /* Kolor tekstu na przyciskach */
-  border-color: #f0f0f0 !important; /* Kolor ramki przycisków */
+  color: #6633ff !important;        /* Kolor tekstu na przyciskach */
+  border-color: #6633ff !important; /* Kolor ramki przycisków */
   background-color: rgba(255, 255, 255, 0.1) !important; /* Delikatne tło przycisku */
 }
 
@@ -57,12 +57,12 @@ h1, .author {
   background: rgba(0, 0, 0, 0.6) !important; /* Czarne tło z 60% widocznością */
   padding: 30px !important;
   border-radius: 10px;
-  color: #f0f0f0 !important; /* Jasnoszary kolor głównej czcionki */
+  color: #6633ff !important; /* Jasnoszary kolor głównej czcionki */
 }
 
 /* Kolory nagłówków (h2, h3 itd.) w tekście głównym */
 .col-lg-8 h2, .col-lg-8 h3 {
-  color: #ffffff !important;
+  color: #6633ff !important;
 }
 
 /* Kolor zwykłych linków w tekście głównym */
