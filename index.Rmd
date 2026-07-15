@@ -18,7 +18,7 @@ output:
 <style>
 /* 1. TŁO DLA CAŁEJ STRONY - na samym dole (z-index) */
 body {
-  background-image: url("https://images.unsplash.com/photo-1518655061710-5ccf392c275a?q=80&w=3000") !important;
+  background-image: url("image.png") !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
