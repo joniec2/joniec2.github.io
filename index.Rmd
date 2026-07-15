@@ -13,9 +13,38 @@ links:
   - label: Credly
     url: "https://www.credly.com/users/krzysztof-jonczyk.829b582e/badges#credly"
 output:
-  postcards::trestles:
-    css: style.css
+  postcards::trestles
 ---
+<style>
+/* 1. Ustawienie tła dla całej strony */
+body {
+  background-image: url("https://images.unsplash.com/photo-1518655061710-5ccf392c275a?q=80&w=3000") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+/* 2. Usunięcie białego tła z kontenerów, aby nasze tło było widoczne */
+.container-fluid, 
+.row, 
+.col-md-6, 
+.col-lg-4, 
+.col-lg-8, 
+.col-sm-12,
+main {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* 3. Opcjonalnie: lekko przyciemnione/rozjaśnione tło pod samym tekstem, */
+/* żeby napisy były czytelne na tle obrazka */
+.col-lg-8 {
+  background: rgba(255, 255, 255, 0.85) !important; /* białe tło z 85% widocznością */
+  padding: 30px !important;
+  border-radius: 10px;
+}
+</style>
 
 ## Profile
 
